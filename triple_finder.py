@@ -5,7 +5,7 @@ from functools import partial
 
 a_max = int(input("max a: "))
 b_max = int(input("max b: "))
-desired_angle = float(input("desired angle: ")*math.pi/180.0)
+desired_angle = float(input("desired angle: "))*math.pi/180.0
 
 if a_max < b_max:
     b_max, a_max = a_max, b_max
